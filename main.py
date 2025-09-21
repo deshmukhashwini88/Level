@@ -31,7 +31,7 @@ class Sprite(pygame.sprite.Sprite):
 	def moveBack(self, speed):
 		self.rect.y -= speed * speed/10
 
-bg = pygame.image.load("a.jpg")
+bg = pygame.image.load("a.jpeg")
 bg = pygame.transform.scale(bg, (500, 400))
 
 pygame.init()
